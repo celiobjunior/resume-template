@@ -1,0 +1,134 @@
+% GitHub Repo and Documentation: https://github.com/celiobjunior/resume-template
+% Copyright © 2025 Celio B Junior. All rights reserved.
+% 
+% Licensed under the Apache License, Version 2.0 (the "License");
+% you may not use this file except in compliance with the License.
+% You may obtain a copy of the License at
+%
+%     http://www.apache.org/licenses/LICENSE-2.0
+%
+% This template follows best practices from README.md
+
+\documentclass[a4paper,10pt]{article}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{titlesec}
+\usepackage{textcomp}
+
+% --- CONFIGURATIONS ---
+\geometry{top=1.0cm, bottom=1.0cm, left=1.0cm, right=1.0cm}
+\pagestyle{empty}
+
+% PDF metadata - customize with your information
+\hypersetup{
+    pdftitle={CV Your Name},
+    pdfauthor={Your Name},
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black,
+    citecolor=black,
+    bookmarksdepth=1 
+}
+
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}
+  {0em}
+  {}
+  [\titlerule\vspace{0.5ex}]
+
+% --- BEGIN DOCUMENT ---
+\begin{document}
+
+% --- HEADER SECTION ---
+% Replace with your personal information
+\begin{center}
+    {\LARGE \textbf{Your Full Name}} \\ [0.1cm]
+    Your City, Your Country {\textbullet}
+    Email: \href{mailto:your.email@example.com}{your.email@example.com} {\textbullet}
+    \href{https://www.linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} {\textbullet}
+    \href{https://github.com/yourusername}{github.com/yourusername}
+\end{center}
+
+% --- SECTIONS ---    
+
+\section{Education}
+    % Use this format for each degree - most recent first
+    \subsection*{\texorpdfstring{
+        \textbf{Your University Name} \hfill Your City, Your Country (e.g. Remote or São Paulo, Brazil)
+        }{
+        Your University Name (Education) -- Your City, Your Country 
+        }}
+    \textit{Your Degree Title (e.g. B.Sc. Computer Science) \hfill Start Date - End Date (e.g. Jan 2024 - Dec 2024)}
+
+\section{Leadership Activities} 
+    % Include volunteer work, clubs, organizations, or leadership roles
+    \subsection*{\texorpdfstring{
+        \textbf{Organization Name (e.g. Robotics Club, Student Government)} \hfill Location (e.g. Remote or São Paulo, Brazil)
+        }{
+        Organization Name (Leadership) -- Your City, Your Country
+        }}
+    \textit{Your Role/Position (e.g. Vice President, Team Lead) \hfill Start Date - End Date (e.g. Jan 2024 - Present)}
+        \begin{itemize}
+            % Use action verbs from the README - quantify your impact when possible
+            \item Describe a significant leadership accomplishment with specific metrics.
+            \item Highlight how you managed teams, led initiatives, or drove results.
+            \item Show impact on the organization or community you served.
+        \end{itemize}
+
+\section{Experience}
+    % List work experience in reverse chronological order (most recent first)
+    \subsection*{\texorpdfstring{
+        \textbf{Company Name (e.g. Google, Microsoft, Local Startup)} \hfill Location (e.g. Remote or New York, USA)
+        }{
+            Company Name -- Location
+        }}
+    \textit{Job Title (e.g. Software Engineer, Data Analyst) \hfill Start Date - End Date (e.g. Jul 2024 - Present)}
+        \begin{itemize} 
+            % Focus on achievements, not just duties - use STAR method (Situation, Task, Action, Result)
+            \item Accomplished [specific result] by [action taken], leading to [quantified impact].
+            \item Developed/Built/Created [what you made] using [technologies/methods], resulting in [benefit].
+            \item Collaborated with [team size/type] to [achieve what], improving [metric] by [percentage/amount].
+        \end{itemize}
+
+    \subsection*{\texorpdfstring{
+        \textbf{Another Company/Organization} \hfill Location (e.g. Remote or London, UK)
+        }{
+            Another Company/Organization -- Location
+        }}
+    \textit{Previous Job Title (e.g. Junior Developer, Research Assistant) \hfill Start Date – End Date (e.g. Feb 2024 – Jun 2024)}
+        \begin{itemize}
+            \item Use active verbs from the action verbs table in README.md
+            \item Quantify your achievements whenever possible (numbers, percentages, timeframes)
+            \item Show progression and increasing responsibility across roles
+        \end{itemize}
+        
+    \subsection*{\texorpdfstring{
+        \textbf{University/Research Institution} \hfill Location (e.g. Campus or Boston, USA)
+        }{
+            University/Research Institution -- Location
+        }}
+    \textit{Research/Academic Position (e.g. Undergraduate Researcher, Teaching Assistant) \hfill Start Date – End Date (e.g. Jan 2024 – Dec 2024)}
+        \begin{itemize}
+            \item Include research, academic work, or projects that demonstrate technical skills
+            \item Highlight any publications, presentations, or significant findings
+        \end{itemize}
+
+
+\section{Skills}
+    % Keep this section concise and relevant to your target jobs
+    \begin{itemize}
+        \item \textbf{Technical:} List your programming languages, frameworks, tools, and methodologies
+        \item \textbf{Language:} Your Native Language (Native), Second Language (Proficiency Level), Third Language (Proficiency Level)
+    \end{itemize}
+
+\end{document}
