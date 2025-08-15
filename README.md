@@ -2,8 +2,16 @@
 
 ## How to use this resume?
 
-This is a TeX/LaTeX resume you can use for professional/education purpose.
+This is a TeX/LaTeX resume you can use for professional/education purpose.  
 The easiest way to edit this template is opening [Overleaf website](https://www.overleaf.com), creating a new project and pasting the resume.
+
+If you need help coming up with good sentences for your resume, use the prompt from the "prompts" folder and input it into an LLM to ask questions. I strongly recommend trying it for yourself first; write down your own ideas, then ask the agent how you can improve them. Asking it to build your whole resume from scratch will likely result in a generic text, and HR professionals will probably notice.
+
+You can provide the agent with something like this (don't forget to attach the other prompt):
+
+> "My main goal is to find [international, national] roles. I have a preference for [US, EU, SA, etc.] companies, but I'm also open to opportunities in [US, EU, SA, etc.].  
+> Currently, (I'm working as a [your role]) OR (I'm a [your degree] student), and I'm looking for [level, e.g., entry-level, senior] [role you desire] roles.  
+> First, let's go through each topic on my resume to check for grammatical mistakes and find better ways to phrase what I've written. I want you to focus on the [American, European, Brazilian] professional landscape and be mindful of the terminology you use."
 
 ## Template Sections
 
